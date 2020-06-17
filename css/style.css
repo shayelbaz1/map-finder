@@ -1,0 +1,54 @@
+/* HELPERS */
+
+.flex {
+  display: flex;
+}
+
+.align-vert {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}  
+
+.bold {
+  font-weight: bold;
+}
+
+/* GENERAL */
+body {
+  background-color: #f78557;
+}
+
+button {
+  border: 1px solid black;  
+  background-color: gray; 
+  padding: 4px; 
+}
+
+input {
+  height: 19px  
+}
+
+/* NAV */
+.site-logo {
+  font-size: 35px;
+}
+
+/* SECONDARY-NAV */
+.location-txt {
+  font-size: 25px;
+}
+
+/* MAIN-CONTENT */
+.weather-card {
+  border: 2px solid black; 
+  background-color: aliceblue;
+  width: 44%; 
+  text-align: center; 
+}

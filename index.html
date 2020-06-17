@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Travel-Tip</title>
+</head>
+
+<body>
+    <nav class="site-nav flex align-vert space-between">
+        <h1 class="site-logo">TravelTip</h1>
+        <div>
+            <input class='location-input' type="text" placeholder="Enter Location"><button
+                class="go-btn">GO</button><button class="my-location">My
+                location</button>
+        </div>
+    </nav>
+
+    <section class="secondary-nav flex align-vert space-between">
+        <p class="location-txt"><span class="bold">Location: </span><span class="loc-desc"></span>
+        </p><button class="copy-loc">Copy
+            Location</button>
+    </section>
+
+    <main class="main-content flex space-around">
+        <div class="weather-card">
+            <h3>Weather Today</h3>
+            <img class="weather-icon" src="">
+            <p class="weather-desc"></p>
+            <p class="temp"></p>
+        </div>
+
+        <div id="map" style="width: 44%; height: 400px;"></div>
+    </main>
+
+    <input class="hidden-input" type="text" hidden>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
